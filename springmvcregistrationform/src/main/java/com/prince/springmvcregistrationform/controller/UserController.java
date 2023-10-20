@@ -24,6 +24,7 @@ public class UserController {
     public String registerUser(@ModelAttribute("user") User user){
         String result="error";
         System.out.println(user);
+        System.out.println("Printing user");
         if(user.getPassword().equals(user.getCpassword()))
         {
             try{
