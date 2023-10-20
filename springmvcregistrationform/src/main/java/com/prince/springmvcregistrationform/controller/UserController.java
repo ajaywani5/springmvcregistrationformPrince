@@ -28,6 +28,7 @@ public class UserController {
       System.out.println("Printing user1");
       System.out.println("Printing user2");
          System.out.println("Printing user3");
+        System.out.println("Printing user4");
         if(user.getPassword().equals(user.getCpassword()))
         {
             try{
