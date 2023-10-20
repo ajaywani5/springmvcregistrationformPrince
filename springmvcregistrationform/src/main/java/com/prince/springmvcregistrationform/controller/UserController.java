@@ -23,7 +23,7 @@ public class UserController {
     @PostMapping("/registerUser")
     public String registerUser(@ModelAttribute("user") User user){
         String result="error";
-        System.out.println(user);
+        System.out.println("User--->"+user);
         if(user.getPassword().equals(user.getCpassword()))
         {
             try{
