@@ -25,6 +25,7 @@ public class UserController {
         String result="error";
         System.out.println(user);
         System.out.println("Printing user");
+         System.out.println("Printing user3");
         if(user.getPassword().equals(user.getCpassword()))
         {
             try{
